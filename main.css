@@ -1,0 +1,71 @@
+body, html {
+    overflow-y: scroll;
+    height: 100%;
+    margin: 0;
+    text-align: center;
+}
+
+body {
+    background-image: url(drinks.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #EAEDED;
+    overflow: auto;
+}
+
+.bg {
+    background-image: url(drinks.jpg);
+}
+
+
+
+header h1 {
+    font-family: 'Abril Fatface', 'Libre Barcode 128 Text', cursive;
+    font-size: 150px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+header p {
+    font-family: 'Libre Barcode 128 Text', cursive;
+    font-size: 66px;
+    margin-top: 0;
+    margin-bottom: 0
+    
+}
+
+nav {
+    font-family: 'Abril Fatface', cursive;
+    
+
+}
+
+a {
+    color: #dda0a0;
+    font-size: 30px;
+    text-decoration: none;
+    padding: 90px;
+    
+}
+
+
+
+a:hover {
+    color: black;
+}
+
+a:active {
+    color: white;
+}
+
+.beans p {
+    font-family: 'Libre Barcode 128 text';
+    margin-bottom: 10px;
+}
+
+.beanLife p {
+    font-family: 'Abril Fatface';
+    font-size: 20px;
+}
