@@ -7,7 +7,7 @@ body, html {
 
 body {
     background-image: url(drinks.jpg);
-    background-position: center center;
+    background-position: center center top;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -25,32 +25,28 @@ header h1 {
     font-family: 'Abril Fatface', 'Libre Barcode 128 Text', cursive;
     font-size: 150px;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: -20px;
 }
 
 header p {
     font-family: 'Libre Barcode 128 Text', cursive;
     font-size: 66px;
     margin-top: 0;
-    margin-bottom: 0
-    
+    margin-bottom: 0;    
 }
 
 nav {
     font-family: 'Abril Fatface', cursive;
-    
-
 }
 
 a {
     color: #dda0a0;
     font-size: 30px;
     text-decoration: none;
-    padding: 90px;
-    
+    padding: 0;
+    margin-bottom: 0px;
+    margin: 70px
 }
-
-
 
 a:hover {
     color: black;
@@ -62,7 +58,7 @@ a:active {
 
 .beans p {
     font-family: 'Libre Barcode 128 text';
-    margin-bottom: 10px;
+    margin-bottom: -15px;
 }
 
 .beanLife p {
